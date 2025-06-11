@@ -19,6 +19,8 @@ contract StructContract {
         vote.choice = _choice;
         vote.voter = msg.sender;
         
+        // Alternatively, you can create a new Vote instance
+        // vote=Vote(_choice, msg.sender);
     }
 
     // Function to add a person to the array
